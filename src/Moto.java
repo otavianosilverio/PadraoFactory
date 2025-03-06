@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Moto {
+public class Moto implements Veiculo{
+    public void dirigir(){
+        System.out.println("Dirigindo uma moto");
+    }
 }
